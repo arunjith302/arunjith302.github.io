@@ -317,7 +317,7 @@ section .title::after{
     content: "what i Did";
 }
 .teams .carousel .card1{
-    background:url("images/Screenshot\ \(48\).png") no-repeat center;
+    background:no-repeat center;
     background-size: contain;
     border-radius: 6px;
     padding: 25px 35px;
@@ -328,7 +328,7 @@ section .title::after{
     
 }
 .teams .carousel .card2{
-    background:url("images/Screenshot\ \(49\).png") no-repeat center;
+    background:no-repeat center;
     background-size: contain;
     border-radius: 6px;
     padding: 25px 35px;
@@ -352,7 +352,8 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.0s ease;
-    visibility: hidden;
+    visibility: visible;
+    
 }
 .teams .carousel .card2 .box{
     display: flex;
@@ -360,14 +361,6 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.0s ease;
-    visibility: hidden;
-}
-.teams .carousel .card1:hover .box{
-    transform: scale(1.05);
-    visibility: visible;
-}
-.teams .carousel .card2:hover .box{
-    transform: scale(1.05);
     visibility: visible;
 }
 
@@ -397,12 +390,7 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.teams .carousel .card1:hover img{
-    border-color: #fff;
-}
-.teams .carousel .card2:hover img{
-    border-color: #fff;
-}
+
 .owl-dots{
     text-align: center;
     margin-top: 20px;
