@@ -435,6 +435,9 @@ section .title::after{
 }
 
 /* contact section styling */
+.contact-content{
+    display: flex;
+}
 .contact .title::after{
     content: "get in touch";
 }
