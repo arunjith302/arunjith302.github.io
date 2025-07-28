@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/ChatGPT Image Jul 28, 2025, 02_28_55 PM.png") no-repeat center;
+    background: url("images/20241207_175207.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -650,7 +650,7 @@ footer span a:hover{
 
     .home{
         display: flex;
-        background: url("images/ChatGPT Image Jul 28, 2025, 02_28_55 PM.png") no-repeat center;
+        background: url("images/20241207_175207.jpg") no-repeat center;
         height: 100vh;
         color: #fff;
         min-height: 500px;
